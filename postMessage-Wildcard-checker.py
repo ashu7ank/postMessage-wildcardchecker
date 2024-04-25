@@ -161,7 +161,7 @@ class GithubAPIClient:
             print(f'Rate limit remaining: {self.rate_limit_remaining}, Retry after {self.rate_limit_reset_time}')
 async def main():
     if len(sys.argv) < 3:
-        print('Usage: python script.py <csv_file_path> <github_token>')
+        print('Usage: python3 script.py  <csv_file_path> <github_token>')
         return
     csv_file_path = sys.argv[1]
     access_token = sys.argv[2]
