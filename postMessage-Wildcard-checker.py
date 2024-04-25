@@ -1,4 +1,4 @@
-#Takes CSV I/P of organisation names only and checks in all repos.
+#Takes CSV I/P of organisation names for a github enterprise only and checks in all repos.
 
 import asyncio
 import csv
